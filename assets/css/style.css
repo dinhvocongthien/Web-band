@@ -19,7 +19,11 @@ html{
 }
 
 .mt-16{
-    margin-top: 16px;
+    margin-top: 16px !important;
+}
+
+.mt-32{
+    margin-top: 32px !important;
 }
 
 .text-white{
@@ -67,6 +71,7 @@ html{
     margin-top: 15px;
     padding: 11px 16px;
     border: none;
+    text-align: center;
 }
 
 .btn:hover{
@@ -92,7 +97,7 @@ html{
     left: 0;
     right: 0;
     z-index: 1;
-    overflow: hidden;
+    
 }
 #nav{
     display: inline-block;
@@ -147,6 +152,14 @@ html{
 #nav .nav-arrow-down{
     font-size: 14px;
 }
+
+#header .mobile-menu-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
 #header .mobile-menu-btn,
 #header .search-btn{
     float: right;
@@ -239,7 +252,7 @@ html{
 }
 
 #content .member-list{
-    margin-top: 48px;
+    margin-top: 32px;
     
 }
 
@@ -290,7 +303,7 @@ html{
 }
 
 .place-list{
-    margin-top: 32px;
+    margin-top: 16px;
     margin-bottom: 48px;
 }
 
@@ -443,6 +456,15 @@ html{
 .contact-info i[class*="ti-"] {
     width: 30px;
     display: inline-block;
+}
+
+.contact-info a{
+    color: #101aef;
+    opacity: 0.8;
+}
+
+.contact-info a:hover{
+    opacity: 1;
 }
 
 .contact-form{
